@@ -5,6 +5,6 @@
         public int Id {  get; set; }
         public string Request { get; set; }
         public DateTime Time { get; set; }
-        public List<Image> Images { get; set; }
+        public List<Image> Images { get; set; } = new List<Image>();
     }
 }
